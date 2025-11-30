@@ -44,9 +44,30 @@
   "portfolio": {
     "eyebrow": "Portafolio",
     "title": "Casos de estudio seleccionados",
-    "subtitle": "Cada proyecto se documenta como un caso de estudio: problema, objetivos, proceso de diseño/desarrollo y resultados. Aquí tienes una muestra representativa.",
+    "subtitle": "Explora prototipos interactivos directamente desde Figma. Usa las flechas para navegar entre los casos de estudio.",
     "impactLabel": "Impacto",
     "caseStudyCta": "Ver caso de estudio",
+    "carousel": {
+      "prev": "Proyecto anterior",
+      "next": "Proyecto siguiente",
+      "openInFigma": "Abrir prototipo en Figma",
+      "activityTracking": {
+        "title": "Activity Tracking"
+      },
+      "gestionJuridica": {
+        "title": "Gestión Jurídica"
+      },
+      "medellinEscucha": {
+        "title": "Medellín te Escucha"
+      },
+      "vamosMed": {
+        "title": "Vamos Med"
+      },
+      "ciudadano360": {
+        "title": "Ciudadano 360",
+        "highlight": "Cobertura nacional: El Colombiano"
+      }
+    },
     "fincrime": {
       "name": "FinCrime Dynamics – Dashboards de prevención de fraude",
       "role": "Frontend Developer & UI/UX Designer",
