@@ -8,10 +8,15 @@
     "contact": "Contacto"
   },
   "hero": {
+    "tagline": "Portafolio profesional",
     "title": "Ingeniero de Sistemas – Diseñador UI/UX & Desarrollador Frontend / Coordinador de Proyectos",
     "subtitle": "Ayudo a equipos a pasar de ideas a interfaces claras, usables y listas para desarrollo, combinando UX, Frontend y coordinación de proyectos.",
     "primaryCta": "Ver portafolio",
-    "secondaryCta": "Descargar CV"
+    "secondaryCta": "Descargar CV",
+    "profileTitle": "Perfil rápido",
+    "profileDegree": "Ingeniero de Sistemas (Universidad EAFIT).",
+    "profileSpecialization": "Especialista en Sistemas de Información (Universidad EAFIT).",
+    "profileExperience": "Experiencia en Frontend, UI/UX y Coordinación de Proyectos."
   },
   "highlights": {
     "years": "4+ años en proyectos de tecnología",
@@ -102,8 +107,15 @@
     "subtitle": "Versión resumida del CV. Puedes descargar el PDF completo para compartirlo con reclutadores.",
     "contact": "Contacto",
     "languages": "Idiomas",
+    "languageSpanish": "Español – Nativo",
+    "languageEnglish": "Inglés – Avanzado",
+    "languageChinese": "Chino Mandarín – Básico",
     "tech": "Tecnologías",
+    "techList": "Microsoft Office, Python (Streamlit, OpenCV), Figma, Git, JIRA, Notion, HTML5, CSS3, JavaScript, TailwindCSS, React, TypeScript.",
     "education": "Educación",
+    "educationSystems": "Ingeniería de Sistemas – Universidad EAFIT (2017–2024).",
+    "educationSpecialization": "Especialización en Sistemas de Información – Universidad EAFIT (2024).",
+    "educationDiploma": "Diplomado en Diseño de Experiencias de Usuario (UI/UX) – UPB (en curso).",
     "summaryTitle": "Resumen profesional",
     "summaryBody": "Ingeniero de Sistemas y especialista en Sistemas de Información con experiencia en el ciclo de vida de proyectos tecnológicos. Combino desarrollo Frontend (JavaScript, React, TypeScript) con análisis y diseño de experiencias de usuario (UI/UX), y coordinación de proyectos. Me motiva guiar equipos hacia entregas claras, alineadas con negocio y con foco en la experiencia de usuario.",
     "downloadTitle": "Descargar CV completo",
@@ -117,5 +129,9 @@
     "phoneLabel": "Número de contacto",
     "socialLabel": "Perfiles profesionales",
     "note": "Estos datos también se encuentran en mi hoja de vida, para que el reclutador pueda acceder fácilmente a ellos."
+  },
+  "footer": {
+    "copyright": "© {year} Daniel Alfonso Solano Velásquez. Todos los derechos reservados.",
+    "builtWith": "Construido con React, TypeScript, TailwindCSS y Framer Motion."
   }
 }

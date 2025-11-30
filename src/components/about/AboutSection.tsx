@@ -25,18 +25,9 @@ export const AboutSection: React.FC = () => {
               {t("about.skillsTitle")}
             </h3>
             <ul className="mt-3 space-y-1 text-xs">
-              <li>
-                <span className="font-semibold text-sky-500">UX &amp; UI:</span>{" "}
-                {t("about.skillsUx")}
-              </li>
-              <li>
-                <span className="font-semibold text-sky-500">Frontend:</span>{" "}
-                {t("about.skillsFrontend")}
-              </li>
-              <li>
-                <span className="font-semibold text-sky-500">Gestión / Management:</span>{" "}
-                {t("about.skillsManagement")}
-              </li>
+              <li>{t("about.skillsUx")}</li>
+              <li>{t("about.skillsFrontend")}</li>
+              <li>{t("about.skillsManagement")}</li>
             </ul>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-900/5 dark:border-slate-800/80 dark:bg-slate-900/60 dark:shadow-slate-950/40">

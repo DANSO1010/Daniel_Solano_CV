@@ -40,9 +40,9 @@ export const CvSection: React.FC = () => {
               {t("cv.languages")}
             </h3>
             <ul className="mt-2 space-y-1 text-xs">
-              <li>Español – Nativo</li>
-              <li>Inglés – Avanzado</li>
-              <li>Chino Mandarín – Básico</li>
+              <li>{t("cv.languageSpanish")}</li>
+              <li>{t("cv.languageEnglish")}</li>
+              <li>{t("cv.languageChinese")}</li>
             </ul>
           </section>
           <section>
@@ -50,8 +50,7 @@ export const CvSection: React.FC = () => {
               {t("cv.tech")}
             </h3>
             <p className="mt-2 text-xs">
-              Microsoft Office, Python (Streamlit, OpenCV), Figma, Git, JIRA, Notion, HTML5, CSS3,
-              JavaScript, TailwindCSS, React, TypeScript.
+              {t("cv.techList")}
             </p>
           </section>
           <section>
@@ -59,9 +58,9 @@ export const CvSection: React.FC = () => {
               {t("cv.education")}
             </h3>
             <ul className="mt-2 space-y-1 text-xs">
-              <li>Ingeniería de Sistemas – Universidad EAFIT (2017–2024).</li>
-              <li>Especialización en Sistemas de Información – Universidad EAFIT (2024).</li>
-              <li>Diplomado en Diseño de Experiencias de Usuario (UI/UX) – UPB (en curso).</li>
+              <li>{t("cv.educationSystems")}</li>
+              <li>{t("cv.educationSpecialization")}</li>
+              <li>{t("cv.educationDiploma")}</li>
             </ul>
           </section>
         </aside>

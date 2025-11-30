@@ -8,10 +8,15 @@
     "contact": "Contact"
   },
   "hero": {
+    "tagline": "Professional portfolio",
     "title": "Systems Engineer – UI/UX Designer & Frontend Developer / Project Coordinator",
     "subtitle": "I help teams move from ideas to clear, usable and dev-ready interfaces by combining UX, Frontend and project coordination.",
     "primaryCta": "View portfolio",
-    "secondaryCta": "Download CV"
+    "secondaryCta": "Download CV",
+    "profileTitle": "Quick profile",
+    "profileDegree": "Systems Engineer (Universidad EAFIT).",
+    "profileSpecialization": "Information Systems Specialist (Universidad EAFIT).",
+    "profileExperience": "Experience in Frontend, UI/UX, and Project Coordination."
   },
   "highlights": {
     "years": "4+ years in tech projects",
@@ -102,8 +107,15 @@
     "subtitle": "Short version of my CV. You can download the full PDF to share with recruiters.",
     "contact": "Contact",
     "languages": "Languages",
+    "languageSpanish": "Spanish – Native",
+    "languageEnglish": "English – Advanced",
+    "languageChinese": "Mandarin Chinese – Basic",
     "tech": "Technologies",
+    "techList": "Microsoft Office, Python (Streamlit, OpenCV), Figma, Git, JIRA, Notion, HTML5, CSS3, JavaScript, TailwindCSS, React, TypeScript.",
     "education": "Education",
+    "educationSystems": "Systems Engineering – Universidad EAFIT (2017–2024).",
+    "educationSpecialization": "Information Systems Specialization – Universidad EAFIT (2024).",
+    "educationDiploma": "Diploma in User Experience Design (UI/UX) – UPB (in progress).",
     "summaryTitle": "Professional summary",
     "summaryBody": "Systems Engineer and Information Systems specialist with experience across the lifecycle of technology projects. I combine Frontend development (JavaScript, React, TypeScript) with user experience design (UI/UX) and project coordination. I enjoy guiding teams towards clear deliveries aligned with business goals and user experience.",
     "downloadTitle": "Download full CV",
@@ -117,5 +129,9 @@
     "phoneLabel": "Phone",
     "socialLabel": "Professional profiles",
     "note": "These details are also included in my CV so recruiters can easily access them."
+  },
+  "footer": {
+    "copyright": "© {year} Daniel Alfonso Solano Velásquez. All rights reserved.",
+    "builtWith": "Built with React, TypeScript, TailwindCSS & Framer Motion."
   }
 }
