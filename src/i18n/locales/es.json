@@ -1,0 +1,121 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "portfolio": "Portafolio",
+    "experience": "Experiencia",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Ingeniero de Sistemas – Diseñador UI/UX & Desarrollador Frontend / Coordinador de Proyectos",
+    "subtitle": "Ayudo a equipos a pasar de ideas a interfaces claras, usables y listas para desarrollo, combinando UX, Frontend y coordinación de proyectos.",
+    "primaryCta": "Ver portafolio",
+    "secondaryCta": "Descargar CV"
+  },
+  "highlights": {
+    "years": "4+ años en proyectos de tecnología",
+    "domains": "Experiencia en fintech, sector público y dashboards analíticos",
+    "coordination": "Coordinación de 16 proyectos; 2 entregados, 7 activos",
+    "stack": "Stack: React, TypeScript, Tailwind, Figma, Jira, etc."
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "De Frontend a diseño de experiencias y coordinación de proyectos",
+    "subtitle": "Mi recorrido combina desarrollo, experiencia de usuario y gestión, lo que me permite acompañar proyectos de punta a punta: desde entender el problema hasta entregar soluciones listas para producción.",
+    "body1": "Soy Ingeniero de Sistemas con Especialización en Sistemas de Información. Empecé mi carrera en desarrollo Frontend (JavaScript, React, TailwindCSS) y con el tiempo evolucioné hacia el diseño de experiencias de usuario (UI/UX), creando interfaces claras, consistentes y alineadas con las necesidades del negocio.",
+    "body2": "Actualmente desempeño el rol de Coordinador de Proyectos y Web Design Analyst. Coordino equipos de desarrollo, organizo cronogramas de alto nivel, y comunico avances y riesgos a stakeholders de forma clara y accionable.",
+    "body3": "Disfruto construir puentes entre negocio, diseño y tecnología: traducir requisitos en historias de usuario, diseñar flujos y pantallas, y acompañar la implementación para asegurar que la experiencia final cumpla lo prometido.",
+    "skillsTitle": "Habilidades principales",
+    "skillsUx": "UX & UI: Figma, wireframes, prototipos interactivos, pruebas con usuarios, sistemas de diseño.",
+    "skillsFrontend": "Frontend: React, TypeScript, JavaScript, HTML5, CSS3, TailwindCSS, consumo de APIs REST.",
+    "skillsManagement": "Gestión: coordinación de proyectos, cronogramas de alto nivel, seguimiento de HUs, relación con clientes.",
+    "timelineTitle": "Timeline rápido",
+    "timeline1": "🎓 Ingeniería de Sistemas – Universidad EAFIT (2017–2024).",
+    "timeline2": "🎓 Especialización en Sistemas de Información – Universidad EAFIT (2024).",
+    "timeline3": "💻 Frontend Developer & UI/UX Designer – FinCrime Dynamics.",
+    "timeline4": "🎨 Web Design Analyst – TASS S.A.S.",
+    "timeline5": "📊 Project Coordinator – TASS S.A.S. (rol actual)."
+  },
+  "portfolio": {
+    "eyebrow": "Portafolio",
+    "title": "Casos de estudio seleccionados",
+    "subtitle": "Cada proyecto se documenta como un caso de estudio: problema, objetivos, proceso de diseño/desarrollo y resultados. Aquí tienes una muestra representativa.",
+    "fincrime": {
+      "name": "FinCrime Dynamics – Dashboards de prevención de fraude",
+      "role": "Frontend Developer & UI/UX Designer",
+      "description": "Diseño y desarrollo de interfaces para dashboards de análisis financiero, priorizando claridad visual, jerarquía de información y consistencia con la identidad de la marca.",
+      "impact": "Mejor entendimiento de métricas críticas de fraude y reducción de fricción en la navegación entre vistas clave."
+    },
+    "treasury": {
+      "name": "Plataformas de tesorería – Sector público",
+      "role": "Web Design Analyst & Project Coordinator",
+      "description": "Definición de arquitectura de información y diseño de pantallas para módulos de recaudo, tesorería y reportes, alineando requerimientos legales con una experiencia clara para usuarios internos.",
+      "impact": "Mayor visibilidad del flujo de caja y reducción de ambigüedades en los formularios críticos del proceso."
+    },
+    "citizen360": {
+      "name": "Ciudadano 360 – Experiencia de atención ciudadana",
+      "role": "UI/UX Designer",
+      "description": "Diseño de flujos, pantallas y pruebas de usabilidad para mejorar la experiencia de ciudadanos al interactuar con servicios digitales de la administración pública.",
+      "impact": "Mejor comprensión de los pasos del proceso y reducción de pasos innecesarios en la navegación."
+    }
+  },
+  "experience": {
+    "eyebrow": "Experiencia",
+    "title": "Trayectoria profesional",
+    "subtitle": "Una vista resumida de los roles más relevantes, alineada con la información del CV.",
+    "fincrime": {
+      "company": "FinCrime Dynamics (UK)",
+      "role": "Frontend Developer & UI/UX Designer",
+      "period": "02/2023 – 06/2023",
+      "b1": "Coordinación con el equipo de desarrollo para implementar interfaces y resolver issues de código.",
+      "b2": "Diseño y evaluación de interfaces de usuario alineadas con los requisitos del cliente.",
+      "b3": "Elaboración de reportes de avance y especificaciones técnicas para stakeholders."
+    },
+    "soporte": {
+      "company": "SOPORTE S.A",
+      "role": "Monitoring & Management",
+      "period": "12/2018 – 02/2020",
+      "b1": "Monitoreo de infraestructura y gestión de incidentes.",
+      "b2": "Elaboración de reportes operativos y soporte a la continuidad del servicio."
+    },
+    "tass_web": {
+      "company": "TASS S.A.S",
+      "role": "Web Design Analyst",
+      "period": "02/2025 – 10/2025",
+      "b1": "Diseño de arquitecturas de información (sitemaps, flujos) para múltiples proyectos.",
+      "b2": "Desarrollo de prototipos de alta fidelidad en Figma para web, dashboards y aplicaciones.",
+      "b3": "Acompañamiento a equipos de desarrollo para asegurar la correcta implementación de los diseños."
+    },
+    "tass_pm": {
+      "company": "TASS S.A.S",
+      "role": "Project Coordinator",
+      "period": "10/2025 – Actualidad",
+      "b1": "Coordinación de equipos de desarrollo en un portafolio de ~16 proyectos.",
+      "b2": "Construcción de cronogramas de alto nivel, seguimiento de avance y gestión de riesgos.",
+      "b3": "Presentación de avances a clientes, gestión de feedback y priorización de requerimientos."
+    }
+  },
+  "cv": {
+    "eyebrow": "CV",
+    "title": "Hoja de vida",
+    "subtitle": "Versión resumida del CV. Puedes descargar el PDF completo para compartirlo con reclutadores.",
+    "contact": "Contacto",
+    "languages": "Idiomas",
+    "tech": "Tecnologías",
+    "education": "Educación",
+    "summaryTitle": "Resumen profesional",
+    "summaryBody": "Ingeniero de Sistemas y especialista en Sistemas de Información con experiencia en el ciclo de vida de proyectos tecnológicos. Combino desarrollo Frontend (JavaScript, React, TypeScript) con análisis y diseño de experiencias de usuario (UI/UX), y coordinación de proyectos. Me motiva guiar equipos hacia entregas claras, alineadas con negocio y con foco en la experiencia de usuario.",
+    "downloadTitle": "Descargar CV completo",
+    "downloadBody": "Aquí puedes enlazar la versión en PDF de tu CV actual. Solo debes reemplazar el enlace de ejemplo por el enlace real (por ejemplo, un archivo alojado en tu propio dominio o en un servicio de almacenamiento).",
+    "downloadCta": "Descargar CV en PDF"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "Si quieres contactarme, puedes usar directamente cualquiera de estos medios.",
+    "emailLabel": "Correo electrónico",
+    "phoneLabel": "Número de contacto",
+    "socialLabel": "Perfiles profesionales",
+    "note": "Estos datos también se encuentran en mi hoja de vida, para que el reclutador pueda acceder fácilmente a ellos."
+  }
+}
