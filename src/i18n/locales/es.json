@@ -21,7 +21,6 @@
   "highlights": {
     "years": "4+ años en proyectos de tecnología",
     "domains": "Experiencia en fintech, sector público y dashboards analíticos",
-    "coordination": "Coordinación de 16 proyectos; 2 entregados, 7 activos",
     "stack": "Stack: React, TypeScript, Tailwind, Figma, Jira, etc."
   },
   "about": {
@@ -37,15 +36,17 @@
     "skillsManagement": "Gestión: coordinación de proyectos, cronogramas de alto nivel, seguimiento de HUs, relación con clientes.",
     "timelineTitle": "Timeline rápido",
     "timeline1": "🎓 Ingeniería de Sistemas – Universidad EAFIT (2017–2024).",
-    "timeline2": "🎓 Especialización en Sistemas de Información – Universidad EAFIT (2024).",
-    "timeline3": "💻 Frontend Developer & UI/UX Designer – FinCrime Dynamics.",
-    "timeline4": "🎨 Web Design Analyst – TASS S.A.S.",
-    "timeline5": "📊 Project Coordinator – TASS S.A.S. (rol actual)."
+    "timeline2": "🧠 Especialización en Sistemas de Información – Universidad EAFIT (2024).",
+    "timeline3": "💡 Diseñador UI/UX & Desarrollador Frontend – FinCrime Dynamics.",
+    "timeline4": "🎨 Analista de Diseño Web – TASS Technology.",
+    "timeline5": "🚀 Coordinador de Proyectos – TASS Technology (rol actual)."
   },
   "portfolio": {
     "eyebrow": "Portafolio",
     "title": "Casos de estudio seleccionados",
     "subtitle": "Cada proyecto se documenta como un caso de estudio: problema, objetivos, proceso de diseño/desarrollo y resultados. Aquí tienes una muestra representativa.",
+    "impactLabel": "Impacto",
+    "caseStudyCta": "Ver caso de estudio",
     "fincrime": {
       "name": "FinCrime Dynamics – Dashboards de prevención de fraude",
       "role": "Frontend Developer & UI/UX Designer",
@@ -65,13 +66,13 @@
       "impact": "Mejor comprensión de los pasos del proceso y reducción de pasos innecesarios en la navegación."
     }
   },
-  "experience": {
-    "eyebrow": "Experiencia",
-    "title": "Trayectoria profesional",
-    "subtitle": "Una vista resumida de los roles más relevantes, alineada con la información del CV.",
+    "experience": {
+      "eyebrow": "Experiencia",
+      "title": "Trayectoria profesional",
+      "subtitle": "Una vista resumida de los roles más relevantes, alineada con la información del CV.",
     "fincrime": {
       "company": "FinCrime Dynamics (UK)",
-      "role": "Frontend Developer & UI/UX Designer",
+      "role": "Desarrollador Frontend & Diseñador UI/UX",
       "period": "02/2023 – 06/2023",
       "b1": "Coordinación con el equipo de desarrollo para implementar interfaces y resolver issues de código.",
       "b2": "Diseño y evaluación de interfaces de usuario alineadas con los requisitos del cliente.",
@@ -79,22 +80,22 @@
     },
     "soporte": {
       "company": "SOPORTE S.A",
-      "role": "Monitoring & Management",
+      "role": "Monitoreo y Gestión",
       "period": "12/2018 – 02/2020",
       "b1": "Monitoreo de infraestructura y gestión de incidentes.",
       "b2": "Elaboración de reportes operativos y soporte a la continuidad del servicio."
     },
     "tass_web": {
-      "company": "TASS S.A.S",
-      "role": "Web Design Analyst",
+      "company": "TASS Technology",
+      "role": "Analista de Diseño Web",
       "period": "02/2025 – 10/2025",
       "b1": "Diseño de arquitecturas de información (sitemaps, flujos) para múltiples proyectos.",
       "b2": "Desarrollo de prototipos de alta fidelidad en Figma para web, dashboards y aplicaciones.",
       "b3": "Acompañamiento a equipos de desarrollo para asegurar la correcta implementación de los diseños."
     },
     "tass_pm": {
-      "company": "TASS S.A.S",
-      "role": "Project Coordinator",
+      "company": "TASS Technology",
+      "role": "Coordinador de Proyectos",
       "period": "10/2025 – Actualidad",
       "b1": "Coordinación de equipos de desarrollo en un portafolio de ~16 proyectos.",
       "b2": "Construcción de cronogramas de alto nivel, seguimiento de avance y gestión de riesgos.",
