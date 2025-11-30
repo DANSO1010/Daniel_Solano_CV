@@ -7,8 +7,7 @@ const sections = [
   { id: "about", key: "nav.about" },
   { id: "portfolio", key: "nav.portfolio" },
   { id: "experience", key: "nav.experience" },
-  { id: "cv", key: "nav.cv" },
-  { id: "contact", key: "nav.contact" }
+  { id: "cv", key: "nav.cv" }
 ];
 
 export const Navbar: React.FC = () => {
