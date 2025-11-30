@@ -4,7 +4,6 @@ import { useLanguage } from "../../context/LanguageContext";
 const items: Array<{ key: string }> = [
   { key: "highlights.years" },
   { key: "highlights.domains" },
-  { key: "highlights.coordination" },
   { key: "highlights.stack" }
 ];
 

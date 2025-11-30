@@ -21,7 +21,6 @@
   "highlights": {
     "years": "4+ years in tech projects",
     "domains": "Experience in fintech, public sector and analytics dashboards",
-    "coordination": "Coordinated 16-project portfolio; 2 launches, 7 active",
     "stack": "Stack: React, TypeScript, Tailwind, Figma, Jira, etc."
   },
   "about": {
@@ -37,15 +36,17 @@
     "skillsManagement": "Management: project coordination, high-level planning, user story tracking, stakeholder communication.",
     "timelineTitle": "Quick timeline",
     "timeline1": "🎓 Systems Engineering – Universidad EAFIT (2017–2024).",
-    "timeline2": "🎓 Information Systems Specialization – Universidad EAFIT (2024).",
-    "timeline3": "💻 Frontend Developer & UI/UX Designer – FinCrime Dynamics.",
-    "timeline4": "🎨 Web Design Analyst – TASS S.A.S.",
-    "timeline5": "📊 Project Coordinator – TASS S.A.S. (current role)."
+    "timeline2": "🧠 Information Systems Specialization – Universidad EAFIT (2024).",
+    "timeline3": "💡 UI/UX Designer & Frontend Developer – FinCrime Dynamics.",
+    "timeline4": "🎨 Web Design Analyst – TASS Technology.",
+    "timeline5": "🚀 Project Coordinator – TASS Technology (current role)."
   },
   "portfolio": {
     "eyebrow": "Portfolio",
     "title": "Selected case studies",
     "subtitle": "Each project is documented as a case study: problem, goals, design/development process and outcomes. Here is a representative sample.",
+    "impactLabel": "Impact",
+    "caseStudyCta": "View case study",
     "fincrime": {
       "name": "FinCrime Dynamics – Fraud prevention dashboards",
       "role": "Frontend Developer & UI/UX Designer",
@@ -65,10 +66,10 @@
       "impact": "Better understanding of process steps and fewer unnecessary steps in navigation."
     }
   },
-  "experience": {
-    "eyebrow": "Experience",
-    "title": "Professional journey",
-    "subtitle": "A summarized view of my most relevant roles, aligned with the CV.",
+    "experience": {
+      "eyebrow": "Experience",
+      "title": "Professional journey",
+      "subtitle": "A summarized view of my most relevant roles, aligned with the CV.",
     "fincrime": {
       "company": "FinCrime Dynamics (UK)",
       "role": "Frontend Developer & UI/UX Designer",
@@ -85,7 +86,7 @@
       "b2": "Prepared operational reports and supported service continuity."
     },
     "tass_web": {
-      "company": "TASS S.A.S",
+      "company": "TASS Technology",
       "role": "Web Design Analyst",
       "period": "02/2025 – 10/2025",
       "b1": "Designed information architectures (sitemaps, flows) for multiple projects.",
@@ -93,7 +94,7 @@
       "b3": "Supported development teams to ensure correct implementation of designs."
     },
     "tass_pm": {
-      "company": "TASS S.A.S",
+      "company": "TASS Technology",
       "role": "Project Coordinator",
       "period": "10/2025 – Present",
       "b1": "Coordinated development teams across a portfolio of ~16 projects.",
