@@ -16,7 +16,7 @@ export const HomeHero: React.FC = () => {
           className="relative z-10 max-w-xl"
         >
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-sky-500">
-            Portafolio profesional
+            {t("hero.tagline")}
           </p>
           <h1 className="text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl lg:text-5xl dark:text-slate-50">
             Daniel Alfonso{" "}
@@ -50,12 +50,12 @@ export const HomeHero: React.FC = () => {
           className="relative z-10 w-full max-w-md rounded-3xl border border-slate-200 bg-white p-6 shadow-xl shadow-slate-900/10 dark:border-slate-800/70 dark:bg-slate-900/60 dark:shadow-slate-950/60"
         >
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sky-500">
-            Perfil rápido
+            {t("hero.profileTitle")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-slate-800 dark:text-slate-200">
-            <li>Ingeniero de Sistemas (Universidad EAFIT).</li>
-            <li>Especialista en Sistemas de Información (Universidad EAFIT).</li>
-            <li>Experiencia en Frontend, UI/UX,  y Coordinación de Proyectos.</li>
+            <li>{t("hero.profileDegree")}</li>
+            <li>{t("hero.profileSpecialization")}</li>
+            <li>{t("hero.profileExperience")}</li>
           </ul>
         </motion.div>
       </div>
