@@ -21,7 +21,6 @@
   "highlights": {
     "years": "4+ years in tech projects",
     "domains": "Experience in fintech, public sector and analytics dashboards",
-    "coordination": "Coordinated 16-project portfolio; 2 launches, 7 active",
     "stack": "Stack: React, TypeScript, Tailwind, Figma, Jira, etc."
   },
   "about": {
@@ -37,38 +36,34 @@
     "skillsManagement": "Management: project coordination, high-level planning, user story tracking, stakeholder communication.",
     "timelineTitle": "Quick timeline",
     "timeline1": "🎓 Systems Engineering – Universidad EAFIT (2017–2024).",
-    "timeline2": "🎓 Information Systems Specialization – Universidad EAFIT (2024).",
-    "timeline3": "💻 Frontend Developer & UI/UX Designer – FinCrime Dynamics.",
-    "timeline4": "🎨 Web Design Analyst – TASS S.A.S.",
-    "timeline5": "📊 Project Coordinator – TASS S.A.S. (current role)."
+    "timeline2": "🧠 Information Systems Specialization – Universidad EAFIT (2024).",
+    "timeline3": "💡 UI/UX Designer & Frontend Developer – FinCrime Dynamics.",
+    "timeline4": "🎨 Web Design Analyst – TASS Technology.",
+    "timeline5": "🚀 Project Coordinator – TASS Technology (current role)."
   },
   "portfolio": {
     "eyebrow": "Portfolio",
     "title": "Selected case studies",
-    "subtitle": "Each project is documented as a case study: problem, goals, design/development process and outcomes. Here is a representative sample.",
-    "fincrime": {
-      "name": "FinCrime Dynamics – Fraud prevention dashboards",
-      "role": "Frontend Developer & UI/UX Designer",
-      "description": "Design and implementation of interfaces for financial analysis dashboards, focusing on visual clarity, information hierarchy and brand consistency.",
-      "impact": "Improved understanding of critical fraud metrics and reduced friction when navigating between key views."
-    },
-    "treasury": {
-      "name": "Treasury platforms – Public sector",
-      "role": "Web Design Analyst & Project Coordinator",
-      "description": "Information architecture and screen design for collection, treasury and reporting modules, aligning regulatory requirements with a clear experience for internal users.",
-      "impact": "Greater visibility of cash flow and fewer ambiguities in critical process forms."
-    },
-    "citizen360": {
-      "name": "Citizen 360 – Citizen service experience",
-      "role": "UI/UX Designer",
-      "description": "Flow design, interface screens and usability testing to improve how citizens interact with public administration digital services.",
-      "impact": "Better understanding of process steps and fewer unnecessary steps in navigation."
+    "subtitle": "Explore interactive prototypes for five key projects. Use the arrows to navigate and open the prototype in a new tab when you want to dive deeper.",
+    "carousel": {
+      "previous": "Previous project",
+      "next": "Next project",
+      "position": "{current} of {total}",
+      "openPrototype": "Open prototype in new tab",
+      "featuredBadge": "National coverage",
+      "featuredText": "This project was featured in national media for its impact on citizen experience.",
+      "articleCta": "Read the article",
+      "activity": { "title": "Activity Tracking" },
+      "gestion": { "title": "Legal Management" },
+      "medellin": { "title": "Medellín te Escucha" },
+      "vamos": { "title": "Vamos Med" },
+      "citizen360": { "title": "Ciudadano360 – Digital citizen service" }
     }
   },
-  "experience": {
-    "eyebrow": "Experience",
-    "title": "Professional journey",
-    "subtitle": "A summarized view of my most relevant roles, aligned with the CV.",
+    "experience": {
+      "eyebrow": "Experience",
+      "title": "Professional journey",
+      "subtitle": "A summarized view of my most relevant roles, aligned with the CV.",
     "fincrime": {
       "company": "FinCrime Dynamics (UK)",
       "role": "Frontend Developer & UI/UX Designer",
@@ -85,7 +80,7 @@
       "b2": "Prepared operational reports and supported service continuity."
     },
     "tass_web": {
-      "company": "TASS S.A.S",
+      "company": "TASS Technology",
       "role": "Web Design Analyst",
       "period": "02/2025 – 10/2025",
       "b1": "Designed information architectures (sitemaps, flows) for multiple projects.",
@@ -93,7 +88,7 @@
       "b3": "Supported development teams to ensure correct implementation of designs."
     },
     "tass_pm": {
-      "company": "TASS S.A.S",
+      "company": "TASS Technology",
       "role": "Project Coordinator",
       "period": "10/2025 – Present",
       "b1": "Coordinated development teams across a portfolio of ~16 projects.",

@@ -36,7 +36,7 @@ export const HomeHero: React.FC = () => {
             </a>
             <a
               href="#cv"
-              className="inline-flex items-center rounded-full border border-slate-300 px-5 py-2 text-sm font-semibold text-slate-800 transition hover:border-sky-500 hover:text-sky-500 dark:border-slate-700 dark:text-slate-200"
+              className="inline-flex items-center rounded-full border border-slate-300 px-5 py-2 text-sm font-semibold text-slate-800 transition duration-200 ease-out hover:-translate-y-0.5 hover:border-sky-500 hover:bg-sky-50/80 hover:text-sky-600 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800/70"
             >
               {t("hero.secondaryCta")}
             </a>

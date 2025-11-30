@@ -7,7 +7,6 @@ import { AboutSection } from "./components/about/AboutSection";
 import { PortfolioSection } from "./components/portfolio/PortfolioSection";
 import { ExperienceSection } from "./components/experience/ExperienceSection";
 import { CvSection } from "./components/cv/CvSection";
-import { ContactSection } from "./components/contact/ContactSection";
 import { useTheme } from "./context/ThemeContext";
 
 export const App: React.FC = () => {
@@ -26,7 +25,6 @@ export const App: React.FC = () => {
           <PortfolioSection />
           <ExperienceSection />
           <CvSection />
-          <ContactSection />
         </main>
         <Footer />
       </div>

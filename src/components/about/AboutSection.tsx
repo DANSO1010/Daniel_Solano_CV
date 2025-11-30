@@ -13,13 +13,13 @@ export const AboutSection: React.FC = () => {
         title={t("about.title")}
         subtitle={t("about.subtitle")}
       />
-      <div className="grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
-        <div className="space-y-4 text-sm text-slate-800 dark:text-slate-200">
+      <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-16 lg:justify-items-center">
+        <div className="space-y-4 text-sm text-slate-800 dark:text-slate-200 lg:max-w-xl lg:justify-self-center">
           <p>{t("about.body1")}</p>
           <p>{t("about.body2")}</p>
           <p>{t("about.body3")}</p>
         </div>
-        <div className="space-y-4 text-sm text-slate-800 dark:text-slate-200">
+        <div className="space-y-4 text-sm text-slate-800 dark:text-slate-200 lg:max-w-md lg:justify-self-center">
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-900/5 dark:border-slate-800/80 dark:bg-slate-900/60 dark:shadow-slate-950/40">
             <h3 className="text-sm font-semibold text-slate-900 dark:text-slate-50">
               {t("about.skillsTitle")}

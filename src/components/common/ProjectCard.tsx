@@ -1,12 +1,15 @@
 import React from "react";
 import { motion } from "framer-motion";
 import type { Project } from "../../types/project";
+import { useLanguage } from "../../context/LanguageContext";
 
 interface ProjectCardProps {
   project: Project;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+  const { t } = useLanguage();
+
   return (
     <motion.article
       whileHover={{ y: -4, scale: 1.01 }}
@@ -31,13 +34,13 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       </p>
       {project.impact && (
         <p className="mt-3 text-[11px] text-slate-600 dark:text-slate-400">
-          <span className="font-semibold text-sky-500">Impacto / Impact: </span>
+          <span className="font-semibold text-sky-500">{t("portfolio.impactLabel")}: </span>
           {project.impact}
         </p>
       )}
       <div className="mt-4">
         <button className="text-xs font-semibold text-sky-500 hover:text-sky-400">
-          Ver caso de estudio →
+          {t("portfolio.caseStudyCta")} →
         </button>
       </div>
     </motion.article>

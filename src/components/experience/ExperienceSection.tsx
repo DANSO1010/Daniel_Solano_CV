@@ -7,10 +7,10 @@ export const ExperienceSection: React.FC = () => {
   const { t } = useLanguage();
 
   const items = [
-    { key: "fincrime" },
-    { key: "soporte" },
+    { key: "tass_pm" },
     { key: "tass_web" },
-    { key: "tass_pm" }
+    { key: "fincrime" },
+    { key: "soporte" }
   ];
 
   return (
