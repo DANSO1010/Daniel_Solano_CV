@@ -35,11 +35,11 @@
     "skillsFrontend": "Frontend: React, TypeScript, JavaScript, HTML5, CSS3, TailwindCSS, consumo de APIs REST.",
     "skillsManagement": "Gestión: coordinación de proyectos, cronogramas de alto nivel, seguimiento de HUs, relación con clientes.",
     "timelineTitle": "Timeline rápido",
-    "timeline1": "🎓 Ingeniería de Sistemas – Universidad EAFIT (2017–2024).",
-    "timeline2": "🧠 Especialización en Sistemas de Información – Universidad EAFIT (2024).",
-    "timeline3": "💡 Diseñador UI/UX & Desarrollador Frontend – FinCrime Dynamics.",
-    "timeline4": "🎨 Analista de Diseño Web – TASS Technology.",
-    "timeline5": "🚀 Coordinador de Proyectos – TASS Technology (rol actual)."
+    "timeline1": "Ingeniería de Sistemas – Universidad EAFIT (2017–2024).",
+    "timeline2": "Especialización en Sistemas de Información – Universidad EAFIT (2024).",
+    "timeline3": "Diseñador UI/UX & Desarrollador Frontend – FinCrime Dynamics.",
+    "timeline4": "Analista de Diseño Web – TASS Technology.",
+    "timeline5": "Coordinador de Proyectos – TASS Technology (rol actual)."
   },
   "portfolio": {
     "eyebrow": "Portafolio",
@@ -133,7 +133,6 @@
     "languageEnglish": "Inglés – Avanzado",
     "languageChinese": "Chino Mandarín – Básico",
     "tech": "Tecnologías",
-    "techList": "Microsoft Office, Python (Streamlit, OpenCV), Figma, Git, JIRA, Notion, HTML5, CSS3, JavaScript, TailwindCSS, React, TypeScript.",
     "education": "Educación",
     "educationSystems": "Ingeniería de Sistemas – Universidad EAFIT (2017–2024).",
     "educationSpecialization": "Especialización en Sistemas de Información – Universidad EAFIT (2024).",
@@ -150,7 +149,7 @@
     "emailLabel": "Correo electrónico",
     "phoneLabel": "Número de contacto",
     "socialLabel": "Perfiles profesionales",
-    "note": "Estos datos también se encuentran en mi hoja de vida, para que el reclutador pueda acceder fácilmente a ellos."
+    "note": ""
   },
   "footer": {
     "copyright": "© {year} Daniel Alfonso Solano Velásquez. Todos los derechos reservados.",
