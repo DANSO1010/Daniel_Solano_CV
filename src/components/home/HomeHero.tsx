@@ -5,6 +5,7 @@ import { useLanguage } from "../../context/LanguageContext";
 export const HomeHero: React.FC = () => {
   const { t } = useLanguage();
   const cvDownloadHref = `${import.meta.env.BASE_URL}CV_DANIEL%20SOLANO%20V.pdf`;
+  const portraitSrc = `${import.meta.env.BASE_URL}danielSolano2.png`;
   const highlightItems: Array<{ key: string }> = [
     { key: "highlights.years" },
     { key: "highlights.domains" },
@@ -51,21 +52,40 @@ export const HomeHero: React.FC = () => {
             </div>
           </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.92 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
-            className="relative z-10 w-full max-w-md rounded-3xl border border-slate-200 bg-white p-6 shadow-xl shadow-slate-900/10 dark:border-slate-800/70 dark:bg-slate-900/60 dark:shadow-slate-950/60"
-          >
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sky-500">
-              {t("hero.profileTitle")}
-            </p>
-            <ul className="mt-4 space-y-2 text-sm text-slate-800 dark:text-slate-200">
-              <li>{t("hero.profileDegree")}</li>
-              <li>{t("hero.profileSpecialization")}</li>
-              <li>{t("hero.profileExperience")}</li>
-            </ul>
-          </motion.div>
+          <div className="relative z-10 w-full max-w-md">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: 0.08 }}
+              className="group relative mb-5 overflow-hidden rounded-3xl border border-slate-200 bg-white/80 shadow-xl shadow-slate-900/10 backdrop-blur dark:border-slate-800/70 dark:bg-slate-900/60 dark:shadow-slate-950/60"
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-sky-500/10 via-transparent to-cyan-400/10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+              <div className="relative aspect-[4/5] w-full overflow-hidden">
+                <img
+                  src={portraitSrc}
+                  alt="Daniel Solano"
+                  className="h-full w-full object-cover object-center"
+                  loading="lazy"
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: 0.14 }}
+              className="rounded-3xl border border-slate-200 bg-white p-6 shadow-xl shadow-slate-900/10 dark:border-slate-800/70 dark:bg-slate-900/60 dark:shadow-slate-950/60"
+            >
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sky-500">
+                {t("hero.profileTitle")}
+              </p>
+              <ul className="mt-4 space-y-2 text-sm text-slate-800 dark:text-slate-200">
+                <li>{t("hero.profileDegree")}</li>
+                <li>{t("hero.profileSpecialization")}</li>
+                <li>{t("hero.profileExperience")}</li>
+              </ul>
+            </motion.div>
+          </div>
         </div>
 
         <div className="grid gap-4 text-sm text-slate-800 dark:text-slate-200 sm:grid-cols-2 lg:grid-cols-3">
