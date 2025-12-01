@@ -149,7 +149,7 @@ export const CvSection: React.FC = () => {
             </h3>
             <div className="mt-3 grid gap-2 sm:grid-cols-2">
               {techItems.map((item) => (
-                <TechBadge key={item.label} label={item.label} color={item.color} textColor={item.textColor} />
+                <TechBadge key={item.label} label={item.label} image={item.image} />
               ))}
             </div>
           </section>
