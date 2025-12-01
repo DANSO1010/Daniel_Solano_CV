@@ -35,11 +35,11 @@
     "skillsFrontend": "Frontend: React, TypeScript, JavaScript, HTML5, CSS3, TailwindCSS, REST APIs.",
     "skillsManagement": "Management: project coordination, high-level planning, user story tracking, stakeholder communication.",
     "timelineTitle": "Quick timeline",
-    "timeline1": "🎓 Systems Engineering – Universidad EAFIT (2017–2024).",
-    "timeline2": "🧠 Information Systems Specialization – Universidad EAFIT (2024).",
-    "timeline3": "💡 UI/UX Designer & Frontend Developer – FinCrime Dynamics.",
-    "timeline4": "🎨 Web Design Analyst – TASS Technology.",
-    "timeline5": "🚀 Project Coordinator – TASS Technology (current role)."
+    "timeline1": "Systems Engineering – Universidad EAFIT (2017–2024).",
+    "timeline2": "Information Systems Specialization – Universidad EAFIT (2024).",
+    "timeline3": "UI/UX Designer & Frontend Developer – FinCrime Dynamics.",
+    "timeline4": "Web Design Analyst – TASS Technology.",
+    "timeline5": "Project Coordinator – TASS Technology (current role)."
   },
   "portfolio": {
     "eyebrow": "Portfolio",
@@ -133,7 +133,6 @@
     "languageEnglish": "English – Advanced",
     "languageChinese": "Mandarin Chinese – Basic",
     "tech": "Technologies",
-    "techList": "Microsoft Office, Python (Streamlit, OpenCV), Figma, Git, JIRA, Notion, HTML5, CSS3, JavaScript, TailwindCSS, React, TypeScript.",
     "education": "Education",
     "educationSystems": "Systems Engineering – Universidad EAFIT (2017–2024).",
     "educationSpecialization": "Information Systems Specialization – Universidad EAFIT (2024).",
@@ -150,7 +149,7 @@
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "socialLabel": "Professional profiles",
-    "note": "These details are also included in my CV so recruiters can easily access them."
+    "note": ""
   },
   "footer": {
     "copyright": "© {year} Daniel Alfonso Solano Velásquez. All rights reserved.",
