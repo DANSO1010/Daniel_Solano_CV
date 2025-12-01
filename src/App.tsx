@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
 import { HomeHero } from "./components/home/HomeHero";
-import { Highlights } from "./components/home/Highlights";
 import { AboutSection } from "./components/about/AboutSection";
 import { PortfolioSection } from "./components/portfolio/PortfolioSection";
 import { ExperienceSection } from "./components/experience/ExperienceSection";
@@ -20,7 +19,6 @@ export const App: React.FC = () => {
           <section id="home">
             <HomeHero />
           </section>
-          <Highlights />
           <AboutSection />
           <PortfolioSection />
           <ExperienceSection />
