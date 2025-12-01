@@ -49,18 +49,18 @@ const LinkedinIcon = () => (
 
 type TechBadgeProps = {
   label: string;
-  color: string;
-  textColor?: string;
+  image: string;
 };
 
-const TechBadge: React.FC<TechBadgeProps> = ({ label, color, textColor = "text-white" }) => (
+const TechBadge: React.FC<TechBadgeProps> = ({ label, image }) => (
   <div className="flex items-center gap-3 rounded-xl border border-slate-200/70 bg-slate-50 px-3 py-2 shadow-sm shadow-slate-900/5 dark:border-slate-800 dark:bg-slate-900/40 dark:shadow-slate-950/40">
-    <span
-      className={`flex h-9 w-9 items-center justify-center rounded-lg text-xs font-semibold ${textColor}`}
-      style={{ background: color }}
-      aria-hidden
-    >
-      {label}
+    <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-lg border border-slate-200/70 bg-white dark:border-slate-800 dark:bg-slate-950">
+      <img
+        src={`${import.meta.env.BASE_URL}${image}`}
+        alt={label}
+        className="h-full w-full object-contain p-1"
+        loading="lazy"
+      />
     </span>
     <span className="text-xs font-semibold text-slate-800 dark:text-slate-100">{label}</span>
   </div>
@@ -81,20 +81,20 @@ export const CvSection: React.FC = () => {
   ];
 
   const techItems = [
-    { label: "Microsoft Office", color: "linear-gradient(135deg,#f97316,#ea580c)" },
-    { label: "Python", color: "linear-gradient(135deg,#2563eb,#7c3aed)" },
-    { label: "Streamlit", color: "linear-gradient(135deg,#ec4899,#f43f5e)" },
-    { label: "OpenCV", color: "linear-gradient(135deg,#0ea5e9,#22d3ee)" },
-    { label: "Figma", color: "linear-gradient(135deg,#22c55e,#a855f7)" },
-    { label: "GitHub", color: "linear-gradient(135deg,#0f172a,#334155)" },
-    { label: "Jira", color: "linear-gradient(135deg,#2563eb,#1d4ed8)" },
-    { label: "Notion", color: "linear-gradient(135deg,#0f172a,#334155)", textColor: "text-slate-50" },
-    { label: "HTML5", color: "linear-gradient(135deg,#f97316,#fb923c)" },
-    { label: "CSS3", color: "linear-gradient(135deg,#0ea5e9,#2563eb)" },
-    { label: "TailwindCSS", color: "linear-gradient(135deg,#14b8a6,#0ea5e9)" },
-    { label: "JavaScript", color: "linear-gradient(135deg,#facc15,#f59e0b)", textColor: "text-slate-900" },
-    { label: "TypeScript", color: "linear-gradient(135deg,#3b82f6,#2563eb)" },
-    { label: "React", color: "linear-gradient(135deg,#22d3ee,#06b6d4)" },
+    { label: "Microsoft Office", image: "office.png" },
+    { label: "Python", image: "python.jpg" },
+    { label: "Streamlit", image: "streamlit.png" },
+    { label: "OpenCV", image: "openCV.svg" },
+    { label: "Figma", image: "figma.webp" },
+    { label: "GitHub", image: "github.svg" },
+    { label: "Jira", image: "jira.svg" },
+    { label: "Notion", image: "notion.png" },
+    { label: "HTML5", image: "html5.png" },
+    { label: "CSS3", image: "css3.png" },
+    { label: "TailwindCSS", image: "tailwindCSS.png" },
+    { label: "JavaScript", image: "javascript.svg" },
+    { label: "TypeScript", image: "typescript.svg" },
+    { label: "React", image: "react.png" },
   ];
 
   return (
