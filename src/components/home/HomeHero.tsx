@@ -15,7 +15,7 @@ export const HomeHero: React.FC = () => {
   return (
     <div className="section-padding relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-slate-100 via-slate-50 to-slate-100 pt-32 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900">
       <div className="pointer-events-none absolute -top-32 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-sky-500/10 blur-3xl" />
-      <div className="mx-auto flex max-w-6xl flex-col gap-10">
+      <div className="mx-auto flex max-w-6xl flex-col gap-8 lg:gap-10">
         <div className="flex flex-col items-start gap-10 lg:flex-row lg:items-center">
           <motion.div
             initial={{ opacity: 0, y: 18 }}
@@ -88,7 +88,7 @@ export const HomeHero: React.FC = () => {
           </div>
         </div>
 
-        <div className="grid gap-4 text-sm text-slate-800 dark:text-slate-200 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 text-sm text-slate-800 dark:text-slate-200 sm:grid-cols-2 lg:-mt-8 lg:grid-cols-3 lg:gap-5">
           {highlightItems.map((item, idx) => (
             <motion.div
               key={idx}
