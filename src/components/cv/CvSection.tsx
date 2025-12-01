@@ -180,7 +180,7 @@ export const CvSection: React.FC = () => {
               <a
                 href={cvDownloadHref}
                 download="CV_DANIEL SOLANO V.pdf"
-                className="inline-flex items-center rounded-full bg-sky-500 px-4 py-2 text-xs font-semibold text-slate-950 shadow-sm shadow-sky-500/40 transition hover:bg-sky-400"
+                className="inline-flex items-center rounded-full bg-sky-500 px-4 py-2 text-xs font-semibold text-white shadow-sm shadow-sky-500/40 transition hover:bg-sky-400"
               >
                 {t("cv.downloadCta")}
               </a>
