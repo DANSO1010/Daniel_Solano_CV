@@ -43,7 +43,7 @@
   },
   "portfolio": {
     "eyebrow": "Portfolio",
-    "title": "Selected case studies",
+    "title": "Portfolio",
     "subtitle": "Browse interactive prototypes directly from Figma. Use the arrows to move between case studies.",
     "impactLabel": "Impact",
     "caseStudyCta": "View case study",
