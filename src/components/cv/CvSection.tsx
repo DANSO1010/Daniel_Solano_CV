@@ -5,6 +5,7 @@ import { useLanguage } from "../../context/LanguageContext";
 
 export const CvSection: React.FC = () => {
   const { t } = useLanguage();
+  const cvDownloadHref = `${import.meta.env.BASE_URL}CV_DANIEL%20SOLANO%20V.pdf`;
 
   return (
     <SectionWrapper id="cv" className="bg-slate-50 dark:bg-slate-950">
@@ -80,7 +81,8 @@ export const CvSection: React.FC = () => {
             <p className="mt-2 text-xs">{t("cv.downloadBody")}</p>
             <div className="mt-3">
               <a
-                href="#"
+                href={cvDownloadHref}
+                download="CV_DANIEL SOLANO V.pdf"
                 className="inline-flex items-center rounded-full bg-sky-500 px-4 py-2 text-xs font-semibold text-slate-950 shadow-sm shadow-sky-500/40 transition hover:bg-sky-400"
               >
                 {t("cv.downloadCta")}

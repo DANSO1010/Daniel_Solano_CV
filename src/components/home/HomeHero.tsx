@@ -4,6 +4,7 @@ import { useLanguage } from "../../context/LanguageContext";
 
 export const HomeHero: React.FC = () => {
   const { t } = useLanguage();
+  const cvDownloadHref = `${import.meta.env.BASE_URL}CV_DANIEL%20SOLANO%20V.pdf`;
 
   return (
     <div className="section-padding relative flex items-center justify-center overflow-hidden bg-gradient-to-b from-slate-100 via-slate-50 to-slate-100 pt-32 dark:from-slate-950 dark:via-slate-950 dark:to-slate-900">
@@ -35,7 +36,8 @@ export const HomeHero: React.FC = () => {
               {t("hero.primaryCta")}
             </a>
             <a
-              href="#cv"
+              href={cvDownloadHref}
+              download="CV_DANIEL SOLANO V.pdf"
               className="inline-flex items-center rounded-full border border-slate-300 px-5 py-2 text-sm font-semibold text-slate-800 transition duration-200 ease-out hover:-translate-y-0.5 hover:border-sky-500 hover:bg-sky-50/80 hover:text-sky-600 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800/70"
             >
               {t("hero.secondaryCta")}
