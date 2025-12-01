@@ -137,7 +137,7 @@ export const AboutSection: React.FC = () => {
             </h3>
             <ul className="mt-3 space-y-2 text-xs">
               {timelineItems.map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
+                <li key={index} className="flex items-center gap-3">
                   <span className="mt-0.5 inline-flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 text-sky-700 dark:bg-sky-900/60 dark:text-sky-100">
                     {item.icon}
                   </span>
