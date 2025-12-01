@@ -7,10 +7,22 @@ export const ExperienceSection: React.FC = () => {
   const { t } = useLanguage();
 
   const items = [
-    { key: "tass_pm" },
-    { key: "tass_web" },
-    { key: "fincrime" },
-    { key: "soporte" }
+    {
+      key: "tass_pm",
+      logo: { src: "/tass.svg", alt: "Tass Technology logo" }
+    },
+    {
+      key: "tass_web",
+      logo: { src: "/tass.svg", alt: "Tass Technology logo" }
+    },
+    {
+      key: "fincrime",
+      logo: { src: "/fincrime.webp", alt: "FinCrime Dynamics logo" }
+    },
+    {
+      key: "soporte",
+      logo: { src: "/soporteSA.webp", alt: "Soporte S.A. logo" }
+    }
   ];
 
   return (
@@ -28,10 +40,17 @@ export const ExperienceSection: React.FC = () => {
               key={item.key}
               className="rounded-2xl border border-slate-200 bg-white p-4 text-sm text-slate-800 shadow-sm shadow-slate-900/5 dark:border-slate-800/80 dark:bg-slate-900/60 dark:text-slate-200 dark:shadow-slate-950/40"
             >
-              <header className="flex flex-wrap items-baseline justify-between gap-2">
-                <h3 className="font-semibold text-slate-900 dark:text-slate-50">
-                  {t(`${base}.company`)}
-                </h3>
+              <header className="flex flex-wrap items-center justify-between gap-3">
+                <div className="flex items-center gap-3">
+                  <img
+                    src={item.logo.src}
+                    alt={item.logo.alt}
+                    className="h-9 w-9 rounded-lg bg-white/60 object-contain p-1 shadow-sm ring-1 ring-slate-200 dark:bg-slate-800 dark:ring-slate-700"
+                  />
+                  <h3 className="font-semibold text-slate-900 dark:text-slate-50">
+                    {t(`${base}.company`)}
+                  </h3>
+                </div>
                 <p className="text-xs text-slate-500 dark:text-slate-400">
                   {t(`${base}.period`)}
                 </p>
